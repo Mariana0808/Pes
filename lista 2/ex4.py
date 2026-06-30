@@ -1,7 +1,7 @@
-# Pede para o usuário digitar um número
+
 numero = int(input("Digite um número: "))
 
-# Cria a variável contador e começa a contagem em 0
+
 contador = 0
 
 # Enquanto o contador for menor ou igual ao número digitado
