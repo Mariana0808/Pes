@@ -29,8 +29,10 @@ class Livro:
 
     def descricao(self):
         return f"{self.titulo} foi escrito por {self.autor}."
-livro1 = Livro("senhor dos aneis","tolkien")
-livro2 = Livro("Herry Potter","jk")
 
-print(Livro1.descricao())
-print(Livro2.descricacao())
+
+livro1 = Livro("Senhor dos Anéis", "Tolkien")
+livro2 = Livro("Harry Potter", "J. K. Rowling")
+
+print(livro1.descricao())
+print(livro2.descricao())
